@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 14px;
+	
+	background-color: #2C93D4;
+	background-image: url("image/pozadina.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Staatliches', cursive;
+	font-weight: 400;
+	margin: 0.5em 0 0.3em;
+}
+h1 {
+	font-size: 38px;
+	border-bottom: 5px solid #CCCCCC;
+	letter-spacing: 5px;
+	text-shadow: 4px 2px 4px #CCCCCC;
+}
+h2 {font-size: 28px;}
+h3 {font-size: 24px;}
+h4 {font-size: 22px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;}
+
+#wrapper {
+	background: #FFFFFF;
+	margin: 10px auto;
+	padding: 15px;
+	width: 950px;
+}
+#header {
+	background: #CCCCCC;
+	margin: 0 0 15px;
+	overflow: hidden;
+	padding: 10px;
+}
+#logo {
+	float: left;
+}
+.slogan {
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 28px;
+}
+#nav {
+	height: 40px;
+	background: #01324D;
+	margin: 0 0 15px;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li {
+	float: left;
+}
+#nav ul li a {
+	padding: 13px 15px 7px;
+	height: 20px;
+	display: block;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	background: #B95600;
+}
+#nav ul li a:active {
+	background: #EEEEEE;
+	color: #333333;
+}
+
+#main {
+	width: 660px;
+	float: left;
+	margin: 0 0 15px;
+}
+#sidebar {
+	background: #DDDDDD;
+	width: 250px;
+	float: right;
+	margin: 0 0 15px;
+	padding: 15px;
+}
+#footer {
+	clear: both;
+	background: #01324D;
+	color:#D8B7B8;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px;
+}
+#footer p {
+	margin: 0;
+}
+.imgLeft {
+	float: left;
+	margin: 0 20px 15px 0;
+}
+.imgLeft p {
+	margin: 0;
+	font-size: 14px;
+}
